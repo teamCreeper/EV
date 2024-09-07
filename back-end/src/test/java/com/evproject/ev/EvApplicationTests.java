@@ -1,4 +1,4 @@
-package Creeper.EV;
+package com.evproject.ev;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
