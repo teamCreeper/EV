@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+</head>
+<body>
+    <h1>This is EV first test web page</h1>
+    <h2>List of Entries</h2>
+    <ul>
+        <th:block th:each="info : ${infoList}">
+            <li th:text="'Car Number: ' + ${info.carNum} + ', Brand: ' + ${info.brand} + ', Name: ' + ${info.name}"></li>
+        </th:block>
+    </ul>
+</body>
+</html>

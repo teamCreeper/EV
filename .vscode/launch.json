@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "EvApplication",
+            "request": "launch",
+            "mainClass": "com.evproject.ev.EvApplication",
+            "projectName": "ev"
+        },
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
